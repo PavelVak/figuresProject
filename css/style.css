@@ -1,0 +1,33 @@
+header{
+	padding: 30px 0;
+}
+
+.table tr th:last-child,
+.table tr td:last-child {
+   text-align: center;   
+}
+
+.form-check select{
+	margin-bottom: 15px;
+}
+.line-check{
+	position: relative;
+	padding: 0 0 20px;
+	margin: 0 0 5px;
+}
+
+.line-check.error-check{
+	color: red;
+}
+
+.line-check.error-check input{
+	color: red;
+	border-color: red;
+}
+
+.error-check .error-message{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size: 12px;
+}
